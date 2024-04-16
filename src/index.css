@@ -1,0 +1,200 @@
+body {
+  font-family: Georgia, serif;
+  background-color: rgb(242, 242, 242);
+  margin: 0;
+  padding: 0;
+}
+
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Add your own custom styles here */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ea0000d0;
+}
+
+nav span{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a{
+  padding: 1rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navLink {
+color: rgba(0, 0, 0, 0.596);
+text-decoration: none;
+}
+
+.navLink:hover {
+color: rgba(0, 0, 255, 0.562);
+}
+
+.homePage {
+  text-align: center;
+}
+
+.SearchArea {
+  text-align: center;
+}
+
+.bookMain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 1rem;
+}
+
+.book {
+  width: 200px;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid grey;
+  border-left: 30px solid rgba(0, 0, 0, 0.901);
+  background-color: rgba(255, 255, 255, 0.957);
+}
+
+.book img {
+  width: 120px;
+  height: auto;
+  margin-left: 10px;
+  padding: 10px;
+  align-self: center;
+}
+
+.book p {
+  align-self: center;
+  object-position: bottom;
+  padding: 1px;
+}
+
+.homeLink {
+margin-left: 2rem;
+}
+
+.homeP {
+margin-left: 2rem;
+}
+
+.homeToBooks {
+  text-decoration: none;
+  color:rgba(0, 0, 255, 0.562);
+  margin-top: 40px;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+}
+
+.homeToBooks:hover {
+  border: 1.5px solid black;
+}
+
+.aboutUs {
+  margin-left: 3rem;
+}
+
+.accountPage {
+  margin-left: 3rem;
+}
+
+.selectBookImg {
+  width: 200px;
+  height: auto;
+  align-self: center;
+  margin-left: 1.5rem;
+}
+
+.selectBookTitle {
+  margin-left: 1.5rem;
+}
+
+.selectBookAuthor {
+  margin-left: 1.5rem;
+}
+
+.selectBookDesc {
+  margin-left: 1.5rem;
+}
+
+.selectBookAv {
+  margin-left: 1.5rem;
+}
+
+.checkoutButton {
+  margin-left: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.623);
+}
+
+.returnLink {
+  margin-left: 1.5rem;
+  color: blue;
+  text-decoration: none;
+}
+
+.logCont {
+  text-align: center;
+}
+
+.logEmail {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: block;
+}
+
+.logPass {
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.logIn {
+  margin-left: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.regCont {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.regName{
+  display: block;
+  margin-top: 1rem;
+}
+
+.regLName{
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.regEmail{
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.regPass{
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.regButton{
+  margin-left: 2.5rem;
+  margin-top: 0.5rem;
+}
