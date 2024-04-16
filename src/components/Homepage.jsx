@@ -5,7 +5,7 @@ const Homepage = ({user}) => {
         <div className="homePage">
             <h2>{user.firstname ? `Welcome back, ${user.firstname}!` : 'Welcome to our Library!'}</h2>
             <br />
-            <p>Welcome! Please check out our library selection from the links above.</p>
+            <p>Please check out our library selection from the links above.</p>
 
             <Link to='/books' className='homeToBooks'>To All Books</Link>
         </div>
